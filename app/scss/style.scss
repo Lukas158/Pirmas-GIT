@@ -385,11 +385,11 @@ a:visited {
         flex-direction: column;
     }
     .tekstas {
-        margin-top: 80%;
+        margin-top: 95%;
     }
     .emailrow {
         display: flex;
-    
+        flex-direction: column;
         justify-content: center;
     }
     .firstfoto {
@@ -465,12 +465,27 @@ a:visited {
     }
     .footeremailrow {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-    }
+        }
+        .emailalign {
+            display: flex;
+            flex-direction: column;
+        }
+        .emailrow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+.button {
+    margin-left: 35%;
+}
 .yourwebsite {
     margin-left: 15%;
 }   
 }
+
+
+
 
 
