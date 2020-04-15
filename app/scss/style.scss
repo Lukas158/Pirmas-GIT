@@ -484,7 +484,29 @@ a:visited {
     margin-left: 15%;
 }   
 }
+@media (max-width: 360px) {
+    .navblock2 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 10%;}
+.yourwebsite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    word-wrap: normal;
+}
+header {
+    p {
+        margin-left: 10%;
+    }
+    a {
+        margin-left: 45%;
+    }
+}
 
+    }
 
 
 
